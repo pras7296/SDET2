@@ -17,5 +17,10 @@ public class ContactTest {
 	public void DeleteContactTest() {
 		System.out.println("execute Delete contact");
 	}
+	
+	@Test(groups = "Regression")
+	public void DeleteContactwithorgTest() {
+		System.out.println("execute Delete contact with org");
+	}
 
 }
